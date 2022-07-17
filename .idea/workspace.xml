@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5d9d99-0559-4fb9-8336-36df4b4fb8e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GetStrongest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MySqrt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseWords">
+  <component name="RunManager" selected="Application.GetStrongest">
     <configuration name="ArrayNesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayNesting" />
       <module name="LeetCode" />
@@ -54,8 +55,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetStrongest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GetStrongest" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MovingAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MovingAverage" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MySqrt" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,6 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetStrongest" />
+        <item itemvalue="Application.MySqrt" />
         <item itemvalue="Application.ReverseWords" />
         <item itemvalue="Application.ArrayNesting" />
         <item itemvalue="Application.MovingAverage" />
@@ -85,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657963179470</updated>
       <workItem from="1657963181645" duration="3202000" />
-      <workItem from="1658032856402" duration="4265000" />
+      <workItem from="1658032856402" duration="6751000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1657963700362</created>
@@ -108,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658035457345</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="reverseWords">
+      <created>1658038496573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658038496573</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Moving Average" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moving Average" />
+    <MESSAGE value="reverseWords" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverseWords" />
   </component>
 </project>
