@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5d9d99-0559-4fb9-8336-36df4b4fb8e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GetStrongest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MySqrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LargestPathValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,14 +48,12 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GetStrongest">
-    <configuration name="ArrayNesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayNesting" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\IdeaProjects\LeetCode\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LongestSubstring">
     <configuration name="GetStrongest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GetStrongest" />
       <module name="LeetCode" />
@@ -62,8 +61,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovingAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MovingAverage" />
+    <configuration name="LargestPathValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestPathValue" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestSubstring" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseWords" />
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseList" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstring" />
+        <item itemvalue="Application.ReverseList" />
+        <item itemvalue="Application.LargestPathValue" />
         <item itemvalue="Application.GetStrongest" />
         <item itemvalue="Application.MySqrt" />
-        <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.ArrayNesting" />
-        <item itemvalue="Application.MovingAverage" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657963179470</updated>
       <workItem from="1657963181645" duration="3202000" />
-      <workItem from="1658032856402" duration="6751000" />
+      <workItem from="1658032856402" duration="17912000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1657963700362</created>
@@ -132,16 +138,50 @@
       <option name="project" value="LOCAL" />
       <updated>1658038496573</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="reverseWords">
+      <created>1658040748481</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658040748481</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Moving Average" />
     <MESSAGE value="reverseWords" />
     <option name="LAST_COMMIT_MESSAGE" value="reverseWords" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongestSubstring.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongestSubstring.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
