@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5d9d99-0559-4fb9-8336-36df4b4fb8e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LargestPathValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseList.java" afterDir="false" />
+    <list default="true" id="5a5d9d99-0559-4fb9-8336-36df4b4fb8e7" name="Changes" comment="7.17">
+      <change afterPath="$PROJECT_DIR$/src/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyCalendarTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +37,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -53,9 +56,9 @@
       <recent name="D:\Projects\IdeaProjects\LeetCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestSubstring">
-    <configuration name="GetStrongest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetStrongest" />
+  <component name="RunManager" selected="Application.MyCalendarTwo">
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LRUCache" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MySqrt" />
+    <configuration name="MyCalendarTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyCalendarTwo" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyCalendarTwo" />
+        <item itemvalue="Application.LRUCache" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.LargestPathValue" />
-        <item itemvalue="Application.GetStrongest" />
-        <item itemvalue="Application.MySqrt" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657963179470</updated>
       <workItem from="1657963181645" duration="3202000" />
-      <workItem from="1658032856402" duration="17912000" />
+      <workItem from="1658032856402" duration="30970000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1657963700362</created>
@@ -145,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658040748481</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="7.17">
+      <created>1658115571959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658115571959</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +176,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Moving Average" />
     <MESSAGE value="reverseWords" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverseWords" />
+    <MESSAGE value="7.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -180,6 +191,11 @@
           <url>file://$PROJECT_DIR$/src/LongestSubstring.java</url>
           <line>28</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyCalendarTwo.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
