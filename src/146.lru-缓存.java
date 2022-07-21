@@ -1,10 +1,14 @@
+/*
+ * @lc app=leetcode.cn id=146 lang=java
+ *
+ * [146] LRU 缓存
+ */
+
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * 请你设计并实现一个满足  LRU (最近最少使用) 缓存 约束的数据结构。
- */
-public class LRUCache {
+// @lc code=start
+class LRUCache {
     private final Map<Integer, DLinkNode> cache = new HashMap<>();
     private int size;
     private final int capacity;
@@ -93,7 +97,7 @@ public class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-
+// @lc code=end
 class DLinkNode {
     int key;
     int value;

@@ -1,7 +1,14 @@
+/*
+ * @lc app=leetcode.cn id=3 lang=java
+ *
+ * [3] 无重复字符的最长子串
+ */
+
 import java.util.HashSet;
 import java.util.Set;
 
-public class LongestSubstring {
+// @lc code=start
+class LongestSubstring {
     // public int lengthOfLongestSubstring(String s) {
     //     int startPos = 0;
     //
@@ -55,3 +62,5 @@ public class LongestSubstring {
         System.out.println(longestSubstring.lengthOfLongestSubstring(s));
     }
 }
+// @lc code=end
+
