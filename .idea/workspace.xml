@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5d9d99-0559-4fb9-8336-36df4b4fb8e7" name="Changes" comment="7.21">
-      <change afterPath="$PROJECT_DIR$/src/3.无重复字符的最长子串.java" afterDir="false" />
+    <list default="true" id="5a5d9d99-0559-4fb9-8336-36df4b4fb8e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LRUCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestSubstring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,14 @@
       <recent name="D:\Projects\IdeaProjects\LeetCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PruneTree">
+  <component name="RunManager" selected="Application.FindContentChildren">
+    <configuration name="FindContentChildren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindContentChildren" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LRUCache" />
       <module name="LeetCode" />
@@ -80,13 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShiftGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShiftGrid" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="LeetCode" />
@@ -96,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindContentChildren" />
         <item itemvalue="Application.PruneTree" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.LRUCache" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.ShiftGrid" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +113,7 @@
       <workItem from="1658296631508" duration="133000" />
       <workItem from="1658296867616" duration="2897000" />
       <workItem from="1658301521190" duration="22000" />
-      <workItem from="1658384226500" duration="5377000" />
+      <workItem from="1658384226500" duration="7945000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1657963700362</created>
@@ -175,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658300463236</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="7.21">
+      <created>1658415170963</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658415170963</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +202,8 @@
     <MESSAGE value="7.17" />
     <MESSAGE value="MyCalendarTwo" />
     <MESSAGE value="7.20" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.20" />
+    <MESSAGE value="7.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
