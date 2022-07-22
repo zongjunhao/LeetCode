@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5d9d99-0559-4fb9-8336-36df4b4fb8e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/455.分发饼干.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/455.分发饼干.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/757.设置交集大小至少为-2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/757.设置交集大小至少为-2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +115,8 @@
       <workItem from="1658296631508" duration="133000" />
       <workItem from="1658296867616" duration="2897000" />
       <workItem from="1658301521190" duration="22000" />
-      <workItem from="1658384226500" duration="7945000" />
+      <workItem from="1658384226500" duration="8110000" />
+      <workItem from="1658473178013" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1657963700362</created>
@@ -178,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658415170963</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="455 分发饼干（贪心）">
+      <created>1658471509207</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658471509207</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +213,8 @@
     <MESSAGE value="MyCalendarTwo" />
     <MESSAGE value="7.20" />
     <MESSAGE value="7.21" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.21" />
+    <MESSAGE value="455 分发饼干（贪心）" />
+    <option name="LAST_COMMIT_MESSAGE" value="455 分发饼干（贪心）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

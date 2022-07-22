@@ -25,7 +25,7 @@ class FindContentChildren {
 
     public static void main(String[] args) {
         int[] g = new int[]{1, 2, 3};
-        int[] s = new int[]{1, 1};
+        int[] s = new int[]{1, 2, 3};
         FindContentChildren findContentChildren = new FindContentChildren();
         System.out.println(findContentChildren.findContentChildren(g, s));
     }

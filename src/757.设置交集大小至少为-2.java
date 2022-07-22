@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class IntersectionSizeTwo {
     public int intersectionSizeTwo(int[][] intervals) {
         return 0;
     }
