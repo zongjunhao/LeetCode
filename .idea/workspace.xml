@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5d9d99-0559-4fb9-8336-36df4b4fb8e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/455.分发饼干.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/455.分发饼干.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/757.设置交集大小至少为-2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/757.设置交集大小至少为-2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/135.分发糖果.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/135.分发糖果.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.FindContentChildren">
+    <configuration name="Candy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Candy" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindContentChildren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindContentChildren" />
       <module name="LeetCode" />
@@ -85,20 +90,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FindContentChildren" />
         <item itemvalue="Application.PruneTree" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Candy" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +114,7 @@
       <workItem from="1658296867616" duration="2897000" />
       <workItem from="1658301521190" duration="22000" />
       <workItem from="1658384226500" duration="8110000" />
-      <workItem from="1658473178013" duration="80000" />
+      <workItem from="1658473178013" duration="503000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1657963700362</created>

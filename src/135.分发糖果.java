@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 
 // @lc code=start
-class Solution {
+class Candy {
     public int candy(int[] ratings) {
         int length = ratings.length;
         int[] candyNumbers = new int[ratings.length];
@@ -25,7 +25,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().candy(new int[] { 1, 0, 2}));
+        System.out.println(new Candy().candy(new int[] { 1, 0, 2}));
     }
 }
 // @lc code=end
