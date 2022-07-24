@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MovingAverage {
+class MovingAverage {
     double[] doubleArray;
     int filledPosNum = 0;
     int pos = 0;

@@ -1,6 +1,12 @@
-import java.util.Arrays;
+/*
+ * @lc app=leetcode.cn id=565 lang=java
+ *
+ * [565] 数组嵌套
+ */
 
-public class ArrayNesting {
+// @lc code=start
+
+class ArrayNesting {
     // public int arrayNesting(int[] nums) {
     //     // 最大长度
     //     int maxLength = 0;
@@ -66,3 +72,6 @@ public class ArrayNesting {
         System.out.println(arrayNesting.arrayNesting(inputArray));
     }
 }
+
+// @lc code=end
+
