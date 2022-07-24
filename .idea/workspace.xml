@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5d9d99-0559-4fb9-8336-36df4b4fb8e7" name="Changes" comment="">
+    <list default="true" id="5a5d9d99-0559-4fb9-8336-36df4b4fb8e7" name="Changes" comment="135 分发糖果">
+      <change afterPath="$PROJECT_DIR$/src/剑指OfferII115. 重建序列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/135.分发糖果.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/135.分发糖果.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +56,9 @@
       <recent name="D:\Projects\IdeaProjects\LeetCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindContentChildren">
-    <configuration name="Candy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Candy" />
+  <component name="RunManager" selected="Application.DistanceBetweenBusStops">
+    <configuration name="DistanceBetweenBusStops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DistanceBetweenBusStops" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,13 +66,6 @@
     </configuration>
     <configuration name="FindContentChildren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindContentChildren" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LRUCache" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,13 +85,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SequenceReconstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SequenceReconstruction" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DistanceBetweenBusStops" />
+        <item itemvalue="Application.SequenceReconstruction" />
         <item itemvalue="Application.FindContentChildren" />
         <item itemvalue="Application.PruneTree" />
         <item itemvalue="Application.ReverseList" />
-        <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.Candy" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +116,8 @@
       <workItem from="1658296867616" duration="2897000" />
       <workItem from="1658301521190" duration="22000" />
       <workItem from="1658384226500" duration="8110000" />
-      <workItem from="1658473178013" duration="503000" />
+      <workItem from="1658473178013" duration="881000" />
+      <workItem from="1658555537318" duration="5556000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1657963700362</created>
@@ -186,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658471509207</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="135 分发糖果">
+      <created>1658473709626</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658473709626</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +222,8 @@
     <MESSAGE value="7.20" />
     <MESSAGE value="7.21" />
     <MESSAGE value="455 分发饼干（贪心）" />
-    <option name="LAST_COMMIT_MESSAGE" value="455 分发饼干（贪心）" />
+    <MESSAGE value="135 分发糖果" />
+    <option name="LAST_COMMIT_MESSAGE" value="135 分发糖果" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,6 +237,11 @@
           <url>file://$PROJECT_DIR$/src/ShiftGrid.java</url>
           <line>7</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/剑指OfferII115. 重建序列.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -21,11 +21,11 @@ class Candy {
                 candyNumbers[i - 1] = Math.max(candyNumbers[i] + 1, candyNumbers[i - 1]);
             }
         }
-        return length+Arrays.stream(candyNumbers).sum();
+        return length + Arrays.stream(candyNumbers).sum();
     }
 
     public static void main(String[] args) {
-        System.out.println(new Candy().candy(new int[] { 1, 0, 2}));
+        System.out.println(new Candy().candy(new int[] { 1, 0, 2 }));
     }
 }
 // @lc code=end
