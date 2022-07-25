@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5d9d99-0559-4fb9-8336-36df4b4fb8e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/剑指OfferII041. 滑动窗口的平均值.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayNesting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MovingAverage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
       <recent name="D:\Projects\IdeaProjects\LeetCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayNesting">
+  <component name="RunManager" selected="Application.CBTInserter">
     <configuration name="ArrayNesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayNesting" />
       <module name="LeetCode" />
@@ -65,15 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistanceBetweenBusStops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DistanceBetweenBusStops" />
+    <configuration name="CBTInserter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CBTInserter" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindContentChildren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindContentChildren" />
+    <configuration name="DistanceBetweenBusStops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DistanceBetweenBusStops" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CBTInserter" />
         <item itemvalue="Application.ArrayNesting" />
         <item itemvalue="Application.MovingAverage" />
         <item itemvalue="Application.DistanceBetweenBusStops" />
         <item itemvalue="Application.SequenceReconstruction" />
-        <item itemvalue="Application.FindContentChildren" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +115,9 @@
       <workItem from="1658301521190" duration="22000" />
       <workItem from="1658384226500" duration="8110000" />
       <workItem from="1658473178013" duration="881000" />
-      <workItem from="1658555537318" duration="5918000" />
+      <workItem from="1658555537318" duration="6074000" />
+      <workItem from="1658642328552" duration="212000" />
+      <workItem from="1658727453323" duration="2935000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1657963700362</created>
@@ -211,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658641225588</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1184 公交站间的距离">
+      <created>1658641556169</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658641556170</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
