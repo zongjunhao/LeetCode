@@ -118,6 +118,7 @@
       <workItem from="1658555537318" duration="6074000" />
       <workItem from="1658642328552" duration="212000" />
       <workItem from="1658727453323" duration="2935000" />
+      <workItem from="1658761825531" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1657963700362</created>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658641556170</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="919 完全二叉树插入器">
+      <created>1658761884910</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658761884910</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +253,8 @@
     <MESSAGE value="455 分发饼干（贪心）" />
     <MESSAGE value="135 分发糖果" />
     <MESSAGE value="1184 公交站间的距离" />
-    <option name="LAST_COMMIT_MESSAGE" value="1184 公交站间的距离" />
+    <MESSAGE value="919 完全二叉树插入器" />
+    <option name="LAST_COMMIT_MESSAGE" value="919 完全二叉树插入器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
