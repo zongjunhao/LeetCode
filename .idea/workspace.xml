@@ -54,7 +54,7 @@
       <recent name="D:\Projects\IdeaProjects\LeetCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CBTInserter">
+  <component name="RunManager" selected="Application.Skiplist">
     <configuration name="ArrayNesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayNesting" />
       <module name="LeetCode" />
@@ -83,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceReconstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SequenceReconstruction" />
+    <configuration name="Skiplist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Skiplist" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Skiplist" />
         <item itemvalue="Application.CBTInserter" />
         <item itemvalue="Application.ArrayNesting" />
         <item itemvalue="Application.MovingAverage" />
         <item itemvalue="Application.DistanceBetweenBusStops" />
-        <item itemvalue="Application.SequenceReconstruction" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +118,9 @@
       <workItem from="1658555537318" duration="6074000" />
       <workItem from="1658642328552" duration="212000" />
       <workItem from="1658727453323" duration="2935000" />
-      <workItem from="1658761825531" duration="1092000" />
+      <workItem from="1658761825531" duration="4314000" />
+      <workItem from="1658835448716" duration="614000" />
+      <workItem from="1658928426166" duration="1867000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1657963700362</created>
@@ -225,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658761884910</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1 两数之和">
+      <created>1658816097161</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658816097161</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +263,8 @@
     <MESSAGE value="135 分发糖果" />
     <MESSAGE value="1184 公交站间的距离" />
     <MESSAGE value="919 完全二叉树插入器" />
-    <option name="LAST_COMMIT_MESSAGE" value="919 完全二叉树插入器" />
+    <MESSAGE value="1 两数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 两数之和" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,6 +278,11 @@
           <url>file://$PROJECT_DIR$/src/ShiftGrid.java</url>
           <line>7</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/1206.设计跳表.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
