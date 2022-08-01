@@ -13,16 +13,13 @@ class FindMinArrowShots {
         if (points.length == 0) {
             return 0;
         }
-        Comparator<int[]> comparator = new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                if (o1[1] < o2[1]) {
-                    return -1;
-                } else if (o1[1] == o2[1]) {
-                    return Integer.compare(o1[0], o2[0]);
-                } else {
-                    return 1;
-                }
+        Comparator<int[]> comparator = (o1, o2) -> {
+            if (o1[1] < o2[1]) {
+                return -1;
+            } else if (o1[1] == o2[1]) {
+                return Integer.compare(o1[0], o2[0]);
+            } else {
+                return 1;
             }
         };
         Arrays.sort(points, comparator);
