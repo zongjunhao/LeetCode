@@ -7,7 +7,7 @@
 import java.util.*;
 
 // @lc code=start
-class Solution {
+class ReconstructQueue {
     // public int[][] reconstructQueue(int[][] people) {
     //     Comparator<int[]> comparator = new Comparator<int[]>() {
     //         @Override
@@ -62,7 +62,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        ReconstructQueue solution = new ReconstructQueue();
         int[][] people = new int[][]{{7, 0}, {4, 4}, {7, 1}, {5, 0}, {6, 1}, {5, 2}};
         System.out.println(Arrays.deepToString(solution.reconstructQueue(people)));
     }
