@@ -24,12 +24,14 @@ import java.util.*;
  * }
  */
 class MaxLevelSum {
-    /*
+
     public int maxLevelSum(TreeNode root) {
         // 层次遍历队列
         Queue<TreeNode> queue = new ArrayDeque<>();
         // 记录每层的元素之和
-        List<Integer> levelSumList = new ArrayList<>();
+        int maxLevel = 1;
+        // 当前最大的和
+        int currentMax = root.val;
         queue.offer(root);
         // 当前层的节点个数
         int levelNodeNum = 1;
@@ -39,6 +41,8 @@ class MaxLevelSum {
         int currentNodeNum = 0;
         // 当前层的和
         int levelSum = 0;
+        // 当前层
+        int level = 1;
         while (!queue.isEmpty()) {
             currentNodeNum++;
             TreeNode node = queue.poll();
@@ -53,50 +57,48 @@ class MaxLevelSum {
             }
             // 本层已经遍历到最后一个节点，结算本层节点
             if (currentNodeNum == levelNodeNum) {
-                levelSumList.add(levelSum);
+                if (levelSum > currentMax) {
+                    currentMax = levelSum;
+                    maxLevel = level;
+                }
                 // 即将遍历下一层，重置currentNodeNum
                 currentNodeNum = 0;
                 levelNodeNum = nextLevelNodeNum;
                 nextLevelNodeNum = 0;
                 levelSum = 0;
+                level++;
             }
         }
-        int maxLevel = 0;
-        for (int i = 0; i < levelSumList.size(); i++) {
-            if (levelSumList.get(i) > levelSumList.get(maxLevel)) {
-                maxLevel = i;
-            }
-        }
-        return maxLevel + 1;
-    }
-*/
-
-    private List<Integer> sum = new ArrayList<Integer>();
-
-    public int maxLevelSum(TreeNode root) {
-        dfs(root, 0);
-        int ans = 0;
-        for (int i = 0; i < sum.size(); ++i) {
-            if (sum.get(i) > sum.get(ans)) {
-                ans = i;
-            }
-        }
-        return ans + 1; // 层号从 1 开始
+        return maxLevel;
     }
 
-    private void dfs(TreeNode node, int level) {
-        if (level == sum.size()) {
-            sum.add(node.val);
-        } else {
-            sum.set(level, sum.get(level) + node.val);
-        }
-        if (node.left != null) {
-            dfs(node.left, level + 1);
-        }
-        if (node.right != null) {
-            dfs(node.right, level + 1);
-        }
-    }
+
+    // private List<Integer> sum = new ArrayList<Integer>();
+    //
+    // public int maxLevelSum(TreeNode root) {
+    //     dfs(root, 0);
+    //     int ans = 0;
+    //     for (int i = 0; i < sum.size(); ++i) {
+    //         if (sum.get(i) > sum.get(ans)) {
+    //             ans = i;
+    //         }
+    //     }
+    //     return ans + 1; // 层号从 1 开始
+    // }
+    //
+    // private void dfs(TreeNode node, int level) {
+    //     if (level == sum.size()) {
+    //         sum.add(node.val);
+    //     } else {
+    //         sum.set(level, sum.get(level) + node.val);
+    //     }
+    //     if (node.left != null) {
+    //         dfs(node.left, level + 1);
+    //     }
+    //     if (node.right != null) {
+    //         dfs(node.right, level + 1);
+    //     }
+    // }
 
     public static void main(String[] args) {
         MaxLevelSum maxLevelSum = new MaxLevelSum();
