@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class MinMaxGame {
     public int minMaxGame(int[] nums) {
         int length = nums.length;
         while (length != 1) {
