@@ -11,52 +11,53 @@ class MyCircularQueue {
     int rear = -1;
     int length;
     int currentNum = 0;
+
     public MyCircularQueue(int k) {
         this.circularQueue = new int[k];
         this.length = k;
     }
-    
+
     public boolean enQueue(int value) {
-        if(isFull()){
+        if (isFull()) {
             return false;
-        } else{
+        } else {
             rear = (rear + 1) % length;
             circularQueue[rear] = value;
-            currentNum ++;
+            currentNum++;
             return true;
         }
     }
-    
+
     public boolean deQueue() {
-        if(isEmpty()){
+        if (isEmpty()) {
             return false;
-        } else{
+        } else {
             front = (front + 1) % length;
             currentNum--;
             return true;
         }
     }
-    
+
     public int Front() {
-        if(isEmpty()){
+        if (isEmpty()) {
             return -1;
-        }else{
+        } else {
             return circularQueue[front];
         }
     }
-    
+
     public int Rear() {
-        if(isEmpty()){
+        if (isEmpty()) {
             return -1;
-        }else{
+        } else {
             return circularQueue[rear];
         }
     }
-    
+
     public boolean isEmpty() {
         return currentNum == 0;
     }
-    
+
     public boolean isFull() {
         return currentNum == length;
     }
