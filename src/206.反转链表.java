@@ -77,7 +77,6 @@ class ListNode {
     public String toString() {
         return "ListNode{" +
                 "val=" + val +
-                ", next=" + next +
                 '}';
     }
 }
