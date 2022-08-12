@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 // @lc code=start
-class Solution {
+class GroupThePeople {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
         // Map<Integer, List<Integer>> groups = new HashMap<>();
         // for (int i = 0; i < groupSizes.length; i++) {
@@ -70,7 +70,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        GroupThePeople solution = new GroupThePeople();
         int[] groupSizes = new int[]{2, 1, 3, 3, 3, 2};
         System.out.println(solution.groupThePeople(groupSizes));
     }
